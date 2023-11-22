@@ -2,3 +2,32 @@
   margin: 0;
   padding: 0;
 }
+header,
+.hero {
+  padding: 100px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header nav a {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+

@@ -36,6 +36,7 @@ header nav a {
   display: flex;
   padding-top: 90px;
   padding-bottom: 100px;
+  justify-content: space-between;
 }
 
 .hero-content {
@@ -64,4 +65,11 @@ header nav a {
   flex: auto;
   width: 100px;
   border-radius: 8px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+img {
+  width: 500px;
+  height: 200px;
 }
